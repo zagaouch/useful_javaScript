@@ -1,7 +1,9 @@
-#Calculate Tip
+Calculate Tip
+
 This is a simple JavaScript script that calculates the tip and total amount for a bill based on the bill total and tip percentage.
 
 #Usage
+
 To use this script, you can call the calculateTip() function, passing in the bill total and tip percentage as arguments. The function will return an object containing the tip and total amounts.
 const billTotal = 50.00;
 const tipPercentage = 0.20;
@@ -14,6 +16,7 @@ console.log(`The tip amount is $${tipAndTotal.tip.toFixed(2)}, and the total amo
 The above example calculates the tip and total amounts for a $50.00 bill with a 20% tip, and logs the results to the console.
 
 #Function
+
 The calculateTip() function takes two arguments:
 
 total (number) - The total bill amount
